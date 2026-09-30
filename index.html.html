@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project Title – Demo</title>
+  <meta name="description" content="Live demo of my AIML mini project.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#">Project Title</a>
+    <nav>
+      <a href="#how">How it works</a>
+      <a href="#results">Results</a>
+      <a href="#team">Team</a>
+      <a href="https://github.com/YOUR-USERNAME/YOUR-REPO">GitHub</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Type something. See the model decide.</h1>
+        <p>One sentence about what your project does and who it helps. Replace this text with your own.</p>
+      </div>
+
+      <div class="demo" id="demo">
+        <label for="input">Try it</label>
+        <textarea id="input" rows="4" placeholder="Paste a sentence, review, or sample input here"></textarea>
+        <button id="run" type="button">Run prediction</button>
+        <div id="output" class="output" aria-live="polite">
+          <p class="empty">Enter some input and run the prediction to see results here.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="block">
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li><h3>Collect data</h3><p>Dataset name, size, and source.</p></li>
+        <li><h3>Train the model</h3><p>Algorithm or architecture used and why.</p></li>
+        <li><h3>Predict</h3><p>What the model returns for a new input.</p></li>
+      </ol>
+    </section>
+
+    <section id="results" class="block">
+      <h2>Results</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Model</th><th>Accuracy</th><th>F1 score</th></tr></thead>
+          <tbody>
+            <tr><td>Baseline</td><td>0.00</td><td>0.00</td></tr>
+            <tr><td>Our model</td><td>0.00</td><td>0.00</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">Replace with your real metrics. Add charts or confusion matrices as images in <code>assets/img/</code>.</p>
+    </section>
+
+    <section id="team" class="block">
+      <h2>Team</h2>
+      <ul class="team">
+        <li><strong>Your Name</strong> – role</li>
+        <li><strong>Teammate Name</strong> – role</li>
+      </ul>
+      <p class="note">Guide: Prof. Name, Department of AIML.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made for a college mini project. Source code on <a href="https://github.com/YOUR-USERNAME/YOUR-REPO">GitHub</a>.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
